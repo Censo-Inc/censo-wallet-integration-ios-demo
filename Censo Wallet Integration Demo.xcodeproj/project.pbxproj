@@ -11,11 +11,6 @@
 		BD3DA2852B34A6E100C7FED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DA2842B34A6E100C7FED5 /* ContentView.swift */; };
 		BD3DA2872B34A6E300C7FED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3DA2862B34A6E300C7FED5 /* Assets.xcassets */; };
 		BD3DA28A2B34A6E300C7FED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3DA2892B34A6E300C7FED5 /* Preview Assets.xcassets */; };
-		BD3DA2922B34A74B00C7FED5 /* CensoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BD3DA2912B34A74B00C7FED5 /* CensoSDK */; };
-		BD3DA2942B34A7DE00C7FED5 /* CensoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BD3DA2932B34A7DE00C7FED5 /* CensoSDK */; };
-		BD99519F2B34AAC800F870AB /* CensoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BD99519E2B34AAC800F870AB /* CensoSDK */; };
-		BD9951A12B34AB3F00F870AB /* CensoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BD9951A02B34AB3F00F870AB /* CensoSDK */; };
-		BD9951A32B34AC7400F870AB /* CensoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BD9951A22B34AC7400F870AB /* CensoSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +26,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD3DA2942B34A7DE00C7FED5 /* CensoSDK in Frameworks */,
-				BD9951A32B34AC7400F870AB /* CensoSDK in Frameworks */,
-				BD3DA2922B34A74B00C7FED5 /* CensoSDK in Frameworks */,
-				BD9951A12B34AB3F00F870AB /* CensoSDK in Frameworks */,
-				BD99519F2B34AAC800F870AB /* CensoSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +84,6 @@
 			);
 			name = "Censo Wallet Integration Demo";
 			packageProductDependencies = (
-				BD3DA2912B34A74B00C7FED5 /* CensoSDK */,
-				BD3DA2932B34A7DE00C7FED5 /* CensoSDK */,
-				BD99519E2B34AAC800F870AB /* CensoSDK */,
-				BD9951A02B34AB3F00F870AB /* CensoSDK */,
-				BD9951A22B34AC7400F870AB /* CensoSDK */,
 			);
 			productName = "Censo Wallet Integration Demo";
 			productReference = BD3DA27F2B34A6E100C7FED5 /* Censo Wallet Integration Demo.app */;
@@ -373,26 +358,6 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BD3DA2912B34A74B00C7FED5 /* CensoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CensoSDK;
-		};
-		BD3DA2932B34A7DE00C7FED5 /* CensoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CensoSDK;
-		};
-		BD99519E2B34AAC800F870AB /* CensoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CensoSDK;
-		};
-		BD9951A02B34AB3F00F870AB /* CensoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CensoSDK;
-		};
-		BD9951A22B34AC7400F870AB /* CensoSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CensoSDK;
-		};
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD3DA2772B34A6E100C7FED5 /* Project object */;
